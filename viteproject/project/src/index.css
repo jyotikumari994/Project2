@@ -1,0 +1,87 @@
+/* src/index.css */
+
+.navbar {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  border-bottom: 1px solid #818ea3;
+}
+
+.navbar-top, .navbar-middle, .navbar-links{
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: centerS;
+font-size: 18px;
+  font-family: Helvetica Neue, Helvetica, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
+.navbar-bottom{
+  width: 100%;
+  height:60px;
+  display: flex;
+  background-color: rgb(94, 94, 178);
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  font-family: Helvetica Neue, Helvetica, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
+.navbar-heading  {
+  width:100%;
+  height:40px;
+  align-items:center;
+  background-color: rgb(94, 94, 176);
+   }
+h2{
+  text-align: center;
+  color:white
+}
+  .navbar-bottom2 {
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+  }
+.endbottom2{
+  margin-bottom: 50px;
+  margin-left: 920px;
+  font-size: 18px;
+  font-family: Helvetica Neue, Helvetica, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
+.navbar-links, .navbar-bottom {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-logo {
+  height: 50px;
+}
+
+.navbar-search {
+  padding: 5px;
+  width: 300px;
+}
+
+.vertical-line {
+  height: 20px;
+  border-left: 1px solid #000;
+}
+
+.navbar a, .navbar div {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+.navbar a:hover, .navbar div:hover {
+  background-color: #e2e2e2;
+  border-radius: 5px;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ddd;
+}
