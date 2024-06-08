@@ -8,12 +8,12 @@ const Footer = () => {
       {/* First div with 5 columns */}
       <SimpleGrid columns={5} spacing={4}>
         <VStack align="start">
-          <Text fontWeight="bold">Customer Service</Text>
+          <Text fontWeight="bold">Customer service</Text>
           <HStack>
             <Image src="https://customerservice.costco.com/" alt="Logo" />
             <Text>Get Help</Text>
           </HStack>
-        </VStack>
+        </VStack>i
         <VStack align="start">
           <Text fontWeight="bold">Find a Warehouse</Text>
           <Input placeholder="Search" />
